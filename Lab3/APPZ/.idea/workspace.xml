@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e919e2ad-ec45-49d7-aaf3-f1b02899691d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bdGuZwOArx3WbAf4QmoIQUs2dV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Main (4)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.structural.composite.Main" />
+      <module name="MAPZ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.structural.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behaviour.memento.Main" />
+      <module name="MAPZ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.behaviour.memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behaviour.command.Main" />
+      <module name="MAPZ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.behaviour.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behaviour.observer.Main" />
+      <module name="MAPZ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.behaviour.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behaviour.iterator.Main" />
+      <module name="MAPZ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.behaviour.iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.structural.decorator.Main" />
+      <module name="MAPZ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e919e2ad-ec45-49d7-aaf3-f1b02899691d" name="Default Changelist" comment="" />
+      <created>1588954780066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588954780066</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="65" width="800" height="717" key="#Intentions" timestamp="1589812050549">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" width="800" height="717" key="#Intentions/0.0.1280.800@0.0.1280.800" timestamp="1589812050549" />
+    <state x="240" y="65" key="#Project_Structure" timestamp="1589362516244">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1589362516244" />
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1589899071920">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1589899071920" />
+    <state width="1238" height="302" key="GridCell.Tab.0.bottom" timestamp="1589970394425">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="807" height="271" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1589905497200" />
+    <state width="1238" height="302" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1589970394425" />
+    <state width="1238" height="302" key="GridCell.Tab.0.center" timestamp="1589970394424">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="807" height="271" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1589905497199" />
+    <state width="1238" height="302" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1589970394424" />
+    <state width="1238" height="302" key="GridCell.Tab.0.left" timestamp="1589970394423">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="807" height="271" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1589905497198" />
+    <state width="1238" height="302" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1589970394423" />
+    <state width="1238" height="302" key="GridCell.Tab.0.right" timestamp="1589970394425">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="807" height="271" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1589905497199" />
+    <state width="1238" height="302" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1589970394425" />
+    <state x="319" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1589806920788">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="319" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1589806920788" />
+    <state x="34" y="97" key="new project wizard" timestamp="1589535374325">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="34" y="97" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1589535374325" />
+    <state x="305" y="185" width="670" height="675" key="run.anything.popup" timestamp="1589898203102">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="185" width="670" height="675" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1589898203102" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1589896186799">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1589896186799" />
+  </component>
+</project>
