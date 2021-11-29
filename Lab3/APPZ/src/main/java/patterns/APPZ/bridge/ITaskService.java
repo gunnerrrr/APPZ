@@ -1,7 +1,6 @@
 package patterns.APPZ.bridge;
 
 import patterns.APPZ.entities.Task;
-import patterns.APPZ.proxy.DbContext;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package patterns.APPZ.fasade;
+package patterns.APPZ.bridge;
 
 import patterns.APPZ.bridge.UserService;
 import patterns.APPZ.entities.User;
 
-public class StudentController {
+public class UserController {
     private  UserService userService;
     public void Post (User user) {
         userService.CreateUser(user);

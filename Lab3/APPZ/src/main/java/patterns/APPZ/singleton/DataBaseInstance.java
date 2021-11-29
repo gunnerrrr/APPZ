@@ -6,25 +6,22 @@ import patterns.APPZ.entities.User;
 
 import java.util.List;
 
-public class DataBase {
-    private static DataBase instance;
+public class DataBaseInstance {
+    private static DataBaseInstance instance;
     private List<User> userList;
     private List <Task> taskList;
     private List<TaskResult> taskResultList;
 
-    public static synchronized DataBase getInstance() {
+    public static synchronized DataBaseInstance getInstance() {
         if(instance ==null) {
-            instance =new DataBase();
+            instance =new DataBaseInstance();
         }
         return instance;
     }
-    private DataBase() {
-        connect();
+    private DataBaseInstance() {
+
     }
 
-    private void connect() {
-        System.out.println( ": Connected to database {" + this + "}");
-    }
 
 
     public List<User> getUserList() {

@@ -1,12 +1,10 @@
-package patterns.APPZ.fasade;
+package patterns.APPZ.bridge;
 
-import patterns.APPZ.abstrasct_factory.Component;
-import patterns.APPZ.abstrasct_factory.Relation;
-import patterns.APPZ.abstrasct_factory.umlClass.UmlClassDiagramFactory;
-import patterns.APPZ.abstrasct_factory.umlUseCase.UmlUseCaseDiagramFactory;
-import patterns.APPZ.bridge.TaskService;
+import patterns.APPZ.abstract_factory.Component;
+import patterns.APPZ.abstract_factory.Relation;
+import patterns.APPZ.abstract_factory.umlClass.UmlClassDiagramFactory;
+import patterns.APPZ.abstract_factory.umlUseCase.UmlUseCaseDiagramFactory;
 import patterns.APPZ.entities.Task;
-import patterns.APPZ.entities.User;
 
 import java.util.List;
 

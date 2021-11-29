@@ -1,7 +1,6 @@
-package patterns.APPZ.abstrasct_factory;
+package patterns.APPZ.abstract_factory;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.List;
 
 public interface DiagramFactory {

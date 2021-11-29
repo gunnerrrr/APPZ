@@ -1,24 +1,21 @@
-package patterns.APPZ.abstrasct_factory.umlClass;
+package patterns.APPZ.abstract_factory.umlUseCase;
 
-import patterns.APPZ.abstrasct_factory.Component;
-import patterns.APPZ.abstrasct_factory.DiagramFactory;
-import patterns.APPZ.abstrasct_factory.Relation;
-import patterns.APPZ.abstrasct_factory.umlUseCase.UmlUseCaseComponent;
-import patterns.APPZ.abstrasct_factory.umlUseCase.UmlUseCaseRelation;
+import patterns.APPZ.abstract_factory.DiagramFactory;
+import patterns.APPZ.abstract_factory.Component;
+import patterns.APPZ.abstract_factory.Relation;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UmlClassDiagramFactory implements DiagramFactory {
-
+public class UmlUseCaseDiagramFactory implements DiagramFactory {
 
     @Override
     public List<Component> createComponents(Integer numOfComponents, File content) {
-        List<Component> componentList = new ArrayList<>();
+        List<Component> componentList = new ArrayList <> ();
         for(Integer i=0;i<numOfComponents;i++){
             //here will be logic for parsing diagram
-            UmlClassComponent component = new UmlClassComponent();
+            UmlUseCaseComponent component = new UmlUseCaseComponent();
             componentList.add(component);
         }
         return componentList;
@@ -29,7 +26,7 @@ public class UmlClassDiagramFactory implements DiagramFactory {
         List<Relation> relationList = new ArrayList <> ();
         for(Integer i=0;i<numOfRelations;i++){
             //here will be logic for parsing diagram
-            UmlClassRelation relation = new UmlClassRelation();
+            UmlUseCaseRelation relation = new UmlUseCaseRelation();
             relationList.add(relation);
         }
         return relationList;

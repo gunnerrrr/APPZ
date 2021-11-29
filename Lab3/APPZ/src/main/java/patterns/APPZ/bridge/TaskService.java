@@ -1,38 +1,38 @@
 package patterns.APPZ.bridge;
 
 import patterns.APPZ.entities.Task;
-import patterns.APPZ.proxy.DbContext;
+import patterns.APPZ.proxy.CachedDbContext;
 
 import java.util.List;
 
 public class TaskService implements ITaskService {
-    public DbContext dbContext;
+    public CachedDbContext cachedDbContext;
 
     @Override
     public void CreateTask(Task task) {
-        dbContext.taskList.add(task);
+        cachedDbContext.getTaskList().add(task);
     }
 
     @Override
     public void UpdateTask(Integer idTask, Task updatedTask) {
         this.DeleteTask(idTask);
         updatedTask.setTaskId(idTask);
-        dbContext.taskList.add(updatedTask);
+        cachedDbContext.getTaskList().add(updatedTask);
     }
 
     @Override
     public void DeleteTask(Integer idTask) {
-        dbContext.taskList.remove(this.getTaskById(idTask));
+        cachedDbContext.getTaskList().remove(this.getTaskById(idTask));
     }
 
     @Override
     public List<Task> getTasks() {
-        return dbContext.taskList;
+        return cachedDbContext.getTaskList();
     }
 
     @Override
     public Task getTaskById(Integer idTask) {
-        return dbContext.taskList.stream()
+        return cachedDbContext.getTaskList().stream()
                 .filter(task-> task.getTaskId().equals(idTask))
                 .findFirst().get();
     }

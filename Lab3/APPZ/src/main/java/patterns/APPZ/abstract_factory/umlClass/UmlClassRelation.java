@@ -1,6 +1,6 @@
-package patterns.APPZ.abstrasct_factory.umlClass;
+package patterns.APPZ.abstract_factory.umlClass;
 
-import patterns.APPZ.abstrasct_factory.Relation;
+import patterns.APPZ.abstract_factory.Relation;
 
 public class UmlClassRelation implements Relation {
     private Integer relationId;

@@ -1,38 +1,38 @@
 package patterns.APPZ.bridge;
 
 import patterns.APPZ.entities.User;
-import patterns.APPZ.proxy.DbContext;
+import patterns.APPZ.proxy.CachedDbContext;
 
 import java.util.List;
 
 public class UserService implements IUserService {
-    public DbContext dbContext;
+    public CachedDbContext cachedDbContext;
 
     @Override
     public void CreateUser(User user) {
-        dbContext.userList.add(user);
+        cachedDbContext.getUserList().add(user);
     }
 
     @Override
     public void UpdateUser(Integer idUser, User updatedUser) {
         this.DeleteUser(idUser);
         updatedUser.setUserId(idUser);
-        dbContext.userList.add(updatedUser);
+        cachedDbContext.getUserList().add(updatedUser);
     }
 
     @Override
     public void DeleteUser(Integer idUser) {
-        dbContext.userList.remove(this.getUserById(idUser));
+        cachedDbContext.getUserList().remove(this.getUserById(idUser));
     }
 
     @Override
     public List<User> getUsers() {
-        return dbContext.userList;
+        return cachedDbContext.getUserList();
     }
 
     @Override
     public User getUserById(Integer idUser) {
-        return dbContext.userList.stream()
+        return cachedDbContext.getUserList().stream()
                 .filter(user-> user.getUserId().equals(idUser))
                 .findFirst().get();
     }

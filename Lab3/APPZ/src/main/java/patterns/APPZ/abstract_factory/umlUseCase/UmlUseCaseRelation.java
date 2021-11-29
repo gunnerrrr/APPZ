@@ -1,6 +1,6 @@
-package patterns.APPZ.abstrasct_factory.umlUseCase;
+package patterns.APPZ.abstract_factory.umlUseCase;
 
-import patterns.APPZ.abstrasct_factory.Relation;
+import patterns.APPZ.abstract_factory.Relation;
 
 public class UmlUseCaseRelation implements Relation {
     private Integer relationId;

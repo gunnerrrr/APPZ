@@ -1,4 +1,4 @@
-package patterns.APPZ.abstrasct_factory;
+package patterns.APPZ.abstract_factory;
 
 public interface Component {
         public boolean checkComponent();

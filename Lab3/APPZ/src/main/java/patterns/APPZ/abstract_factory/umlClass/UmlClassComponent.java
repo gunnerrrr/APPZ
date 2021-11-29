@@ -1,8 +1,8 @@
-package patterns.APPZ.abstrasct_factory.umlUseCase;
+package patterns.APPZ.abstract_factory.umlClass;
 
-import patterns.APPZ.abstrasct_factory.Component;
+import patterns.APPZ.abstract_factory.Component;
 
-public class UmlUseCaseComponent implements Component {
+public class UmlClassComponent implements Component{
     private Integer componentId;
     private String type;
     private String name;
@@ -10,10 +10,11 @@ public class UmlUseCaseComponent implements Component {
     @Override
     public boolean checkComponent() {
         //logic will be complicated
-        if(!type.equals("Actor") && !type.equals("Use Case")) {
+        if(!type.equals("Class") && !type.equals("Interface")) {
             return false;
         }
-        return true;    }
+        return true;
+    }
 
     public String getType() {
         return type;
